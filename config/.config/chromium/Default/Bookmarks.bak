@@ -1,0 +1,272 @@
+{
+   "checksum": "22d399ea5c19c7f1e20e4705e358c882",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13077168486193892",
+            "id": "14",
+            "meta_info": {
+               "stars.id": "ssc_e6275ac460033b91",
+               "stars.isSynced": "true"
+            },
+            "name": "Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "13024708017793097",
+            "id": "15",
+            "meta_info": {
+               "stars.id": "ssc_20968e3c090926ac",
+               "stars.imageData": "Cg42M3RBMkhGdko5WDlHTRJHCkBodHRwczovL2lwdjQuZ29vZ2xlLmNvbS9zb3JyeS9pbWFnZT9pZD01Mjg3ODkwMzA4MzM0OTIwMTQxJmhsPWVuEMoBGEgaYgpbaHR0cDovL3QzLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NTRjk1SlVKZ3N6aXpvYkdRbVpYbTB3Qnp6OXZUWGNSaXA4NXA1amJBRGlhempHdklKVxCgARg4Ig8IARCgARg4QgYSBK29fgAoqMLum6jbxQI=",
+               "stars.pageData": "Ig5JTkRNa0pFRlJwYzcwTQ==",
+               "stars.version": "sync.server.Chrome46"
+            },
+            "name": "Google+",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://plus.google.com/"
+         }, {
+            "date_added": "13124479737931263",
+            "id": "16",
+            "name": "AppKed",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.macbed.com/"
+         }, {
+            "date_added": "13003132741982000",
+            "id": "17",
+            "meta_info": {
+               "stars.id": "ssc_1af195f094397092",
+               "stars.imageData": "Cg5mVEtDckZYOWFUYkRWTRI7CjNodHRwczovL3d3dy5mYWNlYm9vay5jb20vaW1hZ2VzL2ZiX2ljb25fMzI1eDMyNS5wbmcQ4QEY4QEaYwpbaHR0cDovL3QxLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NTckNtUDFLZllMeGNtOF9DcTU4UWU1MGlzU3NFdFNNVl9HNERXWEpJa2xTTllJUjR0NBDhARjhASIQCAEQ4QEY4QFCBhIEgAIA/yjtvayzkeLMAg==",
+               "stars.pageData": "Ig5RYW5PYzRlbHRpMi1VTQ==",
+               "stars.type": "2",
+               "stars.version": "sync.server.Chrome46"
+            },
+            "name": "Facebook",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.facebook.com/"
+         }, {
+            "date_added": "13086389296128659",
+            "id": "18",
+            "meta_info": {
+               "stars.id": "ssc_c6eb2c1c08bbc583",
+               "stars.version": "sync.server.Chrome46"
+            },
+            "name": "VEECH",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://veech.me/"
+         }, {
+            "date_added": "13003132741982000",
+            "id": "19",
+            "meta_info": {
+               "stars.id": "ssc_ff431ee18c668d55",
+               "stars.imageData": "Cg5wMGRmeWJDUlJUWU5LTRImCh5odHRwOi8vaS5pbWd1ci5jb20vQjN0VHFNOC5qcGcQgAoYgAoaYwpbaHR0cDovL3QzLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NUcGlzMmFYVm5hdV9ZdENfeXROcFd0WWg3SVJ4M0lPeE83ODN1bjU2UjFnZ2hraURqRxDhARjhASIQCAEQ4QEY4QFCBhIEAAJ6/yi4q7nK8+HMAg==",
+               "stars.isSynced": "true",
+               "stars.pageData": "Ig5nODF0NDlZNDdaM1ZpTQ==",
+               "stars.type": "2"
+            },
+            "name": "reddit",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://reddit.com/"
+         }, {
+            "date_added": "13087194752358103",
+            "id": "20",
+            "name": "GroupMe",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://groupme.com/"
+         }, {
+            "date_added": "13092707442373289",
+            "id": "21",
+            "meta_info": {
+               "stars.id": "ssc_4479bc7edaebeff2",
+               "stars.version": "sync.server.Chrome46"
+            },
+            "name": "YouTube",
+            "sync_transaction_version": "4",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13055896367321000",
+            "id": "22",
+            "meta_info": {
+               "stars.id": "ssc_82322bc80f5c776c",
+               "stars.imageData": "Cg56NEF2ajNwTVk5WDVsTRKQAQqJAWh0dHBzOi8vbGg2Lmdvb2dsZXVzZXJjb250ZW50LmNvbS9wcm94eS9yX2pMTDZZTERhQkhZSmV6T1FHUFZtOEtsaUQ3TFhOU29GMldCTlRhNmszSXZHWHV6dkNQa19kaGREMXdfTkwxU0FOMF9aenQwcTd4NWEyd1pJS2NBMUE9dzEyMC1oMTIwEGAYYBphCltodHRwOi8vdDMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1N2SjEzYTlBSHZKX3ZrMy04VWlCSExXUFZINUFfd3JzRmxzbm1QamZTdFNVelU3bDljEGAYYCIOCAEQYBhgQgYSBLbjnv8o7sLJ+4TizAI=",
+               "stars.isSynced": "true",
+               "stars.pageData": "Ig5tSFplN2ZHRVlzcFYxTQ==",
+               "stars.type": "2"
+            },
+            "name": "Keep",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://keep.google.com/"
+         }, {
+            "date_added": "13003132741368962",
+            "id": "23",
+            "meta_info": {
+               "stars.id": "ssc_5cf5eb6a7ab5ae74",
+               "stars.imageData": "Cg45dy1Kd1E4RkwtNWVKTRJCCjpodHRwOi8vaTMuZWJheWltZy5jb20vaW1hZ2VzL2cvM3RVQUFNWFFWVDlTMi1icC9zLWw1MDAuanBnELYBGJUCGmMKW2h0dHA6Ly90My5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjUlNYcXVNNm5JOTJacFQwSjJsQnBrei1oTENFTWdYS18walJaLS11TkVwOUl0NXowa0gQtgEYlQIiEAgBELYBGJUCQgYSBBEFbnoogfiXxYXcxQI=",
+               "stars.pageData": "Ig5Kb0dWQXc4b09QS0VXTQ==",
+               "stars.version": "sync.server.Clank40"
+            },
+            "name": "Ebay",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.ebay.com/"
+         }, {
+            "children": [ {
+               "date_added": "13126638952510304",
+               "id": "25",
+               "name": "Orangescrum",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://scrum.cah.ucf.edu/"
+            }, {
+               "date_added": "13126639098980628",
+               "id": "26",
+               "name": "CAHIT",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://it.cah.ucf.edu/wiki/Main_Page"
+            }, {
+               "date_added": "13128793456473744",
+               "id": "27",
+               "name": "CAH - phpMyAdmin",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.cah.ucf.edu/admin"
+            } ],
+            "date_added": "13129013272863730",
+            "date_modified": "13129013272863730",
+            "id": "24",
+            "name": "Work",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         } ],
+         "date_added": "13129013162887382",
+         "date_modified": "13129084596988824",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13129013162887388",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "4",
+      "synced": {
+         "children": [ {
+            "date_added": "13032387871180914",
+            "id": "6",
+            "meta_info": {
+               "stars.id": "ssc_c947e3e81ddb9e67",
+               "stars.imageData": "Cg44bXRMZ0k3eU1qb0ZJTRI3Ci9odHRwOi8vd3d3Lmhtb3Rha3UubmV0L2ltYWdlcy9ITU9IZWFkZXJMb2dvLnBuZxDXAhiKARpiCltodHRwOi8vdDIuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1RiTTR0RWExLUlhNTdQSDZ6SklSZVl3a2NJN2xJV2dsQjdIUm1fV2kwdV9YWkxUbWFyEJICGG4iEggBEJICGG4guURCBhIEgAH/AA==",
+               "stars.pageData": "Ig5QZC1tSktuMlJsUjBXTQ==",
+               "stars.version": "sync.server.Clank40"
+            },
+            "name": "Harvest Moon Otaku",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://hmotaku.net/?page=games/holv/events"
+         }, {
+            "date_added": "13028482501961552",
+            "id": "7",
+            "meta_info": {
+               "stars.id": "ssc_ab622e8b37d901a0",
+               "stars.imageData": "Cg5FUllvdHhybVAyc2NMTRIuCidodHRwOi8vd3d3LmN1YmV3aGl6LmNvbS9pbWFnZXMvbWFpbi5naWYQgAUYZBpiCltodHRwOi8vdDEuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1Rsa1lfeXVfeHhlYkk0dC0xUmxiX2xVOVliYUw4ajY4cFRCWXROSjJYUkNySnBzWExuEIAEGFAiDwgBEIAEGFBCBhIEgAAAACi0o4fAzczFAg==",
+               "stars.pageData": "Ig50aXhBaXJEanc2bUY3TQ==",
+               "stars.version": "sync.server.Clank40"
+            },
+            "name": "PLL",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.cubewhiz.com/2lookpll.php"
+         }, {
+            "date_added": "13028450121782170",
+            "id": "8",
+            "name": "OLL",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.cubewhiz.com/oll.php"
+         }, {
+            "date_added": "13019273817391666",
+            "id": "9",
+            "meta_info": {
+               "stars.id": "ssc_c0b3170c081f2fc0",
+               "stars.imageData": "Cg5iNExMamtfNzh4MFk2TRJQCklodHRwOi8vc3RhdGljLmFkemVyay5uZXQvQWR2ZXJ0aXNlcnMvYzE2ZWM0YzBkNTk4NDQ2NzhmNjdmYmViODM2OWZiYjEucG5nEJADGGQaYgpbaHR0cDovL3QzLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NURG9PVGc4M3RhejVTMG5mX0xSRUJwQzdLR09BSFp6QzlQUEJPRGFfbUhLRkNFUHlFaBDAAhhQIg8IARDAAhhQQgYSBImwAAAogsGpup/bxQI=",
+               "stars.pageData": "Ig5XYUNCZ21CMWFBelFXTQ==",
+               "stars.version": "sync.server.Clank40"
+            },
+            "name": "jQuery API Documentation",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://api.jquery.com/"
+         }, {
+            "date_added": "13010387907318630",
+            "id": "10",
+            "meta_info": {
+               "stars.id": "ssc_b233bf513f8dcc31",
+               "stars.imageData": "Cg5tQnFFTVJqcDZySHVjTRI6CjNodHRwczovL3d3dy5jb2lub3Ryb24uY29tL2NvaW5vdHJvbi9pbWFnZXMvbG9nby5wbmcQxwMYYBpiCltodHRwOi8vdDAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1F3R0ctTlk4b0gxZVRZb1h1NW93RTVNTGhHb0h3M29Jd09LcHgzRWhnMlphTzZ0QmFJEOwCGEAiDwgBEOwCGEBCBhIEgAAAACie8L7R6NPFAg==",
+               "stars.pageData": "Ig5iMTB4M0FtTUU5NUUwTQ==",
+               "stars.version": "sync.server.Clank40"
+            },
+            "name": "Cointotron",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.coinotron.com/coinotron/AccountServlet?action=logon"
+         }, {
+            "date_added": "13010360095959986",
+            "id": "11",
+            "meta_info": {
+               "stars.id": "ssc_16f0cee9171047f6",
+               "stars.imageData": "Cg5XMEttN1lKaWFyRVZmTRJICkBodHRwOi8vd3d3Lm9sZC1jb21wdXRlcnMuY29tL211c2V1bS9waG90b3MvTkNSX1BDNF9TeXN0ZW1fczEuanBnEN4CGMUCGmMKW2h0dHA6Ly90My5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjVHJjb0FETUJLWTlBZmhwYjdJcm1sbTNncTFGTE1OWHVrcmRKYjRhalZnTEJLbm9qblIQ6QEY2AEiEAgBEOkBGNgBQgYSBIAAAAAooL7G9OnOxQI=",
+               "stars.pageData": "Ig5Dd0JzT01XQlI2amxFTQ==",
+               "stars.version": "sync.server.Chrome45"
+            },
+            "name": "BTC-E",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://btc-e.com/"
+         }, {
+            "date_added": "13008110342710537",
+            "id": "12",
+            "meta_info": {
+               "stars.id": "ssc_6b7f9f9d248b8b0d",
+               "stars.imageData": "Cg5WSEpvN0xNQ1RnZkJtTRI2Ci9odHRwOi8vaW1nLnBva2Vtb25kYi5uZXQvZGVzaWduL2hlYWRlci1kZXNrLnBuZxCKCRhSGmIKW2h0dHA6Ly90MC5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjU0xPMzNueHIxanhBbXJ2TGVTREpHMDA2S2VOQ0lrdEV6NHk1dlQ1dWE3Y0hxYk14N0wQvwQYQCIPCAEQvwQYQEIGEgSAAAAAKIfBgOSd28UC",
+               "stars.pageData": "Ig5HbjVFbE5uWm5UTWFBTQ==",
+               "stars.version": "sync.server.Clank40"
+            },
+            "name": "Effort Value Point List",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://pokemondb.net/ev/all"
+         }, {
+            "date_added": "13008109811599555",
+            "id": "13",
+            "meta_info": {
+               "stars.id": "ssc_363ff99cc511acda",
+               "stars.pageData": "Ig40UmpTR2NVQWFxeWNyTQ==",
+               "stars.version": "sync.server.Chrome45"
+            },
+            "name": "Pokemon Natures",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://bulbapedia.bulbagarden.net/wiki/Nature"
+         } ],
+         "date_added": "13129013162887389",
+         "date_modified": "13032387871180914",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

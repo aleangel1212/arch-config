@@ -1,0 +1,29 @@
+[options]
+font = Monospace 9
+
+[colors]
+
+# special
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = #1d1f21
+
+color0 = #060205
+color1 = #140e1e
+color2 = #25272a
+color3 = #383b42
+color4 = #4b5054
+color5 = #596b5f
+color6 = #6a826a
+color7 = #181842
+color8 = #223053
+color9 = #8aa36c
+color10 = #9d989e
+color11 = #320810
+color12 = #726a7f
+color13 = #4f2b37
+color14 = #8d8789
+color15 = #725462
+
+
