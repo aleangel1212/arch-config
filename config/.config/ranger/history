@@ -1,3 +1,6 @@
 shell 
 open_with
 rename refind-bin-0.10.
+open_with subl3
+
+shell cd ~/.config

@@ -19,14 +19,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/ale/Documents/screen.sh",
-					"settings":
-					{
-						"buffer_size": 226,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -72,11 +64,14 @@
 			},
 			"file_history":
 			[
+				"/home/ale/Documents/arch-config/scripts/install/install-config.sh",
+				"/home/ale/Documents/arch-config/install.sh",
+				"/home/ale/Documents/screen.sh",
 				"/home/ale/.Xresources"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -90,6 +85,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"sfd",
+					"f",
+					"]; ",
+					"choice"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -107,43 +106,14 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/ale/Documents/screen.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 226,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										226,
-										226
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -177,11 +147,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,2885,46,3820,1060,5760,1080",
+			"position": "0,0,0,0,0,1700,542,3340,1030,3360,1050",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":

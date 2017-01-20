@@ -20,23 +20,21 @@
 			"buffers":
 			[
 				{
-					"file": "/home/ale/Documents/arch-config/install.sh",
+					"file": "/srv/http/wordpress/wp-content/themes/starter-theme/front-page.php",
 					"settings":
 					{
-						"buffer_size": 11,
+						"buffer_size": 1497,
 						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "#!/bin/bash"
+						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/ale/Documents/arch-config/scripts/install/install-config.sh",
+					"file": "/srv/http/wordpress/wp-content/themes/starter-theme/header.php",
 					"settings":
 					{
-						"buffer_size": 617,
+						"buffer_size": 2099,
 						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "#!/bin/bash"
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -84,12 +82,15 @@
 			},
 			"file_history":
 			[
+				"/srv/http/wordpress/wp-content/themes/starter-theme/front-page.php",
+				"/home/ale/Documents/arch-config/scripts/install/install-config.sh",
+				"/home/ale/Documents/arch-config/install.sh",
 				"/home/ale/Documents/screen.sh",
 				"/home/ale/.Xresources"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 70.0
 			},
 			"find_in_files":
 			{
@@ -124,65 +125,65 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/ale/Documents/arch-config/install.sh",
+							"file": "/srv/http/wordpress/wp-content/themes/starter-theme/front-page.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 11,
+								"buffer_size": 1497,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										11,
-										11
+										690,
+										690
 									]
 								],
 								"settings":
 								{
-									"auto_name": "#!/bin/bash",
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 204.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/ale/Documents/arch-config/scripts/install/install-config.sh",
+							"file": "/srv/http/wordpress/wp-content/themes/starter-theme/header.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 617,
+								"buffer_size": 2099,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										617,
-										617
+										1647,
+										1647
 									]
 								],
 								"settings":
 								{
-									"auto_name": "#!/bin/bash",
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 357.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -190,7 +191,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -224,11 +225,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1940,46,2875,1060,3840,1080",
+			"position": "0,0,0,0,0,2525,43,3340,1030,3360,1050",
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
