@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ !"$1" ];then
+	echo "usage: sshmount {drive}"
+fi
+
+if [ "$1" = "bigveech" ];then
+	sshfs -o IdentityFile=~/.ssh/id_rsa ale@10.0.0.15:/media/BigVeech ~/VirtualDrives/BigVeech
+fi
+
+if [ "$1" = "dev" ];then
+	sshfs -o IdentityFile=~/.ssh/id_rsa ale@10.171.228.130:/srv/http ~/VirtualDrives/Dev
+fi
