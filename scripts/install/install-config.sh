@@ -11,3 +11,7 @@ ln -s /etc/arch-config/config/.config ~/.config
 
 echo "creating symlink in home directory for .zshrc"
 ln -s /etc/arch-config/config/.zshrc ~/.zshrc
+
+echo "creating symlink in home directory for .Xresources"
+ln -s /etc/arch-config/config/.Xresources ~/.Xresources
+xrdb ~/.Xresources

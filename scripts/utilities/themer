@@ -1,0 +1,12 @@
+source ~/.config/themer/conf
+
+while getopts ":s:" opt; do
+	case $opt in
+		s)
+			;;
+		i)
+			;;
+		d)
+			;;
+	esac
+done

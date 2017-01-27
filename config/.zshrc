@@ -85,4 +85,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Exporting path
-export PATH=$PATH:~/gocode/bin
+export PATH=$PATH:~/Go/bin
