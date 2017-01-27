@@ -181,5 +181,5 @@ bindsym Control+Shift+m exec --no-startup-id xrandr --output DisplayPort-1 --off
 bindsym Control+Shift+s  exec --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
 
 
-exec_always --no-startup-id feh --bg-scale /etc/arch-config/config/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale /etc/arch-config/config/wallpaper.png
 exec_always --no-startup-id compton --config /home/ale/.config/compton/compton.conf
