@@ -15,32 +15,75 @@
 			{
 				"selected_items":
 				[
+					[
+						"si",
+						"SITENAME"
+					]
 				]
 			},
 			"buffers":
 			[
 				{
+<<<<<<< HEAD
 					"file": "/home/ale/Documents/Projects/wpdevmanager/bin/wpdb",
 					"settings":
 					{
 						"buffer_size": 1393,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/ale/Documents/Server/eula.txt",
+=======
+					"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
 					"settings":
 					{
-						"buffer_size": 180,
+						"buffer_size": 2107,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
+					"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 2437,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_header.scss",
+					"settings":
+					{
+						"buffer_size": 631,
+						"encoding": "UTF-8",
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
+						"line_ending": "Unix"
+					}
+				},
+				{
+<<<<<<< HEAD
+					"file": "/home/ale/Documents/Server/eula.txt",
+					"settings":
+					{
+						"buffer_size": 180,
+=======
+					"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
+					"settings":
+					{
+						"buffer_size": 1193,
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+<<<<<<< HEAD
 					"file": "/home/ale/Documents/Server/server.properties",
 					"settings":
 					{
 						"buffer_size": 788,
+=======
+					"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 925,
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -53,10 +96,14 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 289.0,
-				"last_filter": "mate",
+				"height": 353.0,
+				"last_filter": "insta",
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
 					[
 						"mate",
 						"Material Theme: Activate theme"
@@ -70,7 +117,7 @@
 						"Install Package Control"
 					]
 				],
-				"width": 485.0
+				"width": 414.0
 			},
 			"console":
 			{
@@ -90,8 +137,17 @@
 			},
 			"file_history":
 			[
+<<<<<<< HEAD
 				"/srv/http/wordpress/wp-content/themes/starter-theme/front-page.php",
 				"/srv/http/wordpress/wp-content/themes/starter-theme/header.php",
+=======
+				"/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
+				"/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_header.scss",
+				"/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
+				"/home/ale/Documents/Projects/wpdevmanager/bin/wpdb",
+				"/srv/http/wordpress/wp-content/themes/starter-theme/header.php",
+				"/srv/http/wordpress/wp-content/themes/starter-theme/front-page.php",
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 				"/home/ale/Documents/arch-config/scripts/install/install-config.sh",
 				"/home/ale/Documents/arch-config/install.sh",
 				"/home/ale/Documents/screen.sh",
@@ -99,7 +155,11 @@
 			],
 			"find":
 			{
+<<<<<<< HEAD
 				"height": 25.0
+=======
+				"height": 82.0
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 			},
 			"find_in_files":
 			{
@@ -113,6 +173,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					";\n",
 					"sfd",
 					"f",
 					"]; ",
@@ -139,11 +200,48 @@
 					[
 						{
 							"buffer": 0,
+<<<<<<< HEAD
 							"file": "/home/ale/Documents/Projects/wpdevmanager/bin/wpdb",
 							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 1393,
+=======
+							"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2107,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1244,
+										1244
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 384.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_grid.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2437,
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 								"regions":
 								{
 								},
@@ -156,7 +254,13 @@
 								],
 								"settings":
 								{
+<<<<<<< HEAD
 									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+=======
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -166,30 +270,50 @@
 							"type": "text"
 						},
 						{
+<<<<<<< HEAD
 							"buffer": 1,
 							"file": "/home/ale/Documents/Server/eula.txt",
 							"semi_transient": false,
 							"settings":
 							{
 								"buffer_size": 180,
+=======
+							"buffer": 2,
+							"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_header.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 631,
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
+<<<<<<< HEAD
 										180,
 										180
+=======
+										328,
+										343
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 									]
 								],
 								"settings":
 								{
+<<<<<<< HEAD
 									"syntax": "Packages/Text/Plain text.tmLanguage"
+=======
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"translate_tabs_to_spaces": false
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
+<<<<<<< HEAD
 							"stack_index": 1,
 							"type": "text"
 						},
@@ -200,18 +324,36 @@
 							"settings":
 							{
 								"buffer_size": 788,
+=======
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1193,
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
+<<<<<<< HEAD
 										654,
 										654
+=======
+										315,
+										315
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 									]
 								],
 								"settings":
 								{
+<<<<<<< HEAD
 									"syntax": "Packages/Java/JavaProperties.sublime-syntax"
 								},
 								"translation.x": 0.0,
@@ -219,6 +361,46 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+=======
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/ale/VirtualDrives/wpserver/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 925,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										55,
+										55
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 							"type": "text"
 						}
 					]
@@ -226,7 +408,11 @@
 			],
 			"incremental_find":
 			{
+<<<<<<< HEAD
 				"height": 25.0
+=======
+				"height": 26.0
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 			},
 			"input":
 			{
@@ -260,11 +446,19 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
+<<<<<<< HEAD
 			"position": "0,0,0,0,0,2885,733,3820,1060,3840,1080",
 			"project": "",
 			"replace":
 			{
 				"height": 46.0
+=======
+			"position": "0,0,0,0,0,1700,46,3340,1030,3360,1050",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
 			},
 			"save_all_on_build": true,
 			"select_file":

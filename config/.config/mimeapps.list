@@ -1,2 +1,12 @@
 [Added Associations]
+<<<<<<< HEAD
 application/x-java-archive=nautilus-autorun-software.desktop;
+=======
+application/x-php=sublime_text_3.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-264LUY.desktop;
+message/rfc822=userapp-Thunderbird-264LUY.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-264LUY.desktop
+message/rfc822=userapp-Thunderbird-264LUY.desktop
+>>>>>>> 743943c8224446cb3532e670017fc417d755da89
