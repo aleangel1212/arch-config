@@ -1,0 +1,19 @@
+Description="UCF VPN"
+Interface=vpn
+Connection=tuntap
+Mode=tun
+#User=al069481
+#Group=ucffaculty
+
+BindsToInterfaces=(enp6s0 wlp2s0)
+IP=no
+
+PIDFILE=/run/openconnect_${Interface}.pid
+SERVER=ucfvpn-1.vpn.ucf.edu
+AUTHGROUP='ucffaculty'
+LOCAL_USERNAME=ale
+REMOTE_USERNAME=al069481
+PASSWORD=Mxermxer95                                                        
+
+ExecUpPost="echo '${PASSWORD}' | /usr/bin/openconnect --background --pid-file=${PIDFILE} --interface='${Interface}' --authgroup='${AUTHGROUP}' --user='${REMOTE_USERNAME}' --passwd-on-stdin ${SERVER}"
+ExecDownPre="kill -INT $(cat ${PIDFILE}) ; resolvconf -d ${Interface} ; ip link delete ${Interface}"

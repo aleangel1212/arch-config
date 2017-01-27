@@ -19,6 +19,32 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/ale/Documents/Projects/wpdevmanager/bin/wpdb",
+					"settings":
+					{
+						"buffer_size": 1393,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/ale/Documents/Server/eula.txt",
+					"settings":
+					{
+						"buffer_size": 180,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/ale/Documents/Server/server.properties",
+					"settings":
+					{
+						"buffer_size": 788,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -64,6 +90,8 @@
 			},
 			"file_history":
 			[
+				"/srv/http/wordpress/wp-content/themes/starter-theme/front-page.php",
+				"/srv/http/wordpress/wp-content/themes/starter-theme/header.php",
 				"/home/ale/Documents/arch-config/scripts/install/install-config.sh",
 				"/home/ale/Documents/arch-config/install.sh",
 				"/home/ale/Documents/screen.sh",
@@ -71,7 +99,7 @@
 			],
 			"find":
 			{
-				"height": 27.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -106,14 +134,99 @@
 			"groups":
 			[
 				{
+					"selected": 2,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/ale/Documents/Projects/wpdevmanager/bin/wpdb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1393,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/ale/Documents/Server/eula.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 180,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										180,
+										180
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/ale/Documents/Server/server.properties",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 788,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										654,
+										654
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Java/JavaProperties.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 360.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 27.0
+				"height": 25.0
 			},
 			"input":
 			{
@@ -147,11 +260,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1700,542,3340,1030,3360,1050",
+			"position": "0,0,0,0,0,2885,733,3820,1060,3840,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 50.0
+				"height": 46.0
 			},
 			"save_all_on_build": true,
 			"select_file":
