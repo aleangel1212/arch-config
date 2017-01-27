@@ -1,0 +1,4 @@
+USER=ale
+IP=10.171.228.130
+SRVROOT=/srv/http
+LOCROOT=/srv/http

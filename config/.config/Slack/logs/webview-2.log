@@ -1,0 +1,85 @@
+2017-01-27T09:20:52.776Z - info: updateSuspendResume: true
+2017-01-27T09:20:55.299Z - info: UPDATE_NO_DRAG_REGION : {
+  "region": {
+    "id": "search",
+    "width": 140,
+    "height": 34,
+    "top": 13.1875,
+    "left": 565
+  }
+}
+2017-01-27T09:20:55.581Z - info: SELECT_CHANNEL : "C3FB6DV29"
+2017-01-27T09:20:55.592Z - info: UPDATE_TEAM_THEME : {
+  "theme": {
+    "column_bg": "#4D394B",
+    "menu_bg": "#3E313C",
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "hover_item": "#3E313C",
+    "text_color": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C"
+  },
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:20:56.213Z - info: UPDATE_TEAM_ICONS : {
+  "icons": false,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:20:56.469Z - info: UPDATE_UNREADS_INFO : {
+  "unreads": 0,
+  "unreadHighlights": 0,
+  "showBullet": true,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:20:56.605Z - info: UPDATE_UNREADS_INFO : {
+  "unreads": 0,
+  "unreadHighlights": 0,
+  "showBullet": true,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:21:01.453Z - info: SELECT_CHANNEL : "D3F8RUPUJ"
+2017-01-27T09:21:01.645Z - info: Failed to get messages from webapp: Failed to fetch recent messages
+2017-01-27T09:21:04.036Z - info: SELECT_CHANNEL : "C3F8M663U"
+2017-01-27T09:21:05.863Z - info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+2017-01-27T09:21:05.863Z - info: Filtered Locale list: ["en_US"]
+2017-01-27T09:21:05.863Z - info: Counts: {"en":["en_US"]}
+2017-01-27T09:21:05.864Z - info: Setting en
+2017-01-27T09:21:05.864Z - info: Result: {"en":"en-US"}
+2017-01-27T09:21:05.867Z - info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+2017-01-27T09:21:05.868Z - info: Loading dictionary for language en-US
+2017-01-27T09:21:05.869Z - info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+2017-01-27T09:21:06.010Z - info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+2017-01-27T09:21:06.011Z - info: Loading dictionary for language en-US
+2017-01-27T09:21:06.011Z - info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+2017-01-27T09:21:06.059Z - info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+2017-01-27T09:21:06.059Z - info: Loading dictionary for language en-US
+2017-01-27T09:21:06.060Z - info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+2017-01-27T09:21:06.358Z - info: Setting current spellchecker to en-US, requested language was en-US
+2017-01-27T09:21:06.358Z - info: Creating node-spellchecker instance
+2017-01-27T09:21:06.360Z - info: Actually installing spell check provider to Electron
+2017-01-27T09:21:06.472Z - info: Setting current spellchecker to en-US, requested language was en-US
+2017-01-27T09:21:06.529Z - info: Setting current spellchecker to en-US, requested language was en-US
+2017-01-27T09:21:11.505Z - info: SELECT_CHANNEL : "C3F8LF5V0"
+2017-01-27T09:21:15.850Z - info: UPDATE_UNREADS_INFO : {
+  "unreads": 0,
+  "unreadHighlights": 0,
+  "showBullet": true,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:21:17.507Z - info: Failed to get messages from webapp: Failed to fetch recent messages
+2017-01-27T09:21:31.598Z - info: Unloading spellchecker
+2017-01-27T09:21:32.050Z - info: Restoring spellchecker
+2017-01-27T09:21:32.050Z - info: Loading dictionary for language en-US
+2017-01-27T09:21:32.050Z - info: Returning local copy: /etc/arch-config/config/.config/Slack/dictionaries/en-US.bdic
+2017-01-27T09:21:32.057Z - info: Setting current spellchecker to en-US, requested language was en-US
+2017-01-27T09:21:32.057Z - info: Creating node-spellchecker instance
+2017-01-27T09:21:32.057Z - info: Actually installing spell check provider to Electron
+2017-01-27T09:21:39.074Z - info: Unloading spellchecker
+2017-01-27T09:21:39.499Z - info: Restoring spellchecker
+2017-01-27T09:21:39.500Z - info: Loading dictionary for language en-US
+2017-01-27T09:21:39.500Z - info: Returning local copy: /etc/arch-config/config/.config/Slack/dictionaries/en-US.bdic
+2017-01-27T09:21:39.502Z - info: Setting current spellchecker to en-US, requested language was en-US
+2017-01-27T09:21:39.503Z - info: Creating node-spellchecker instance
+2017-01-27T09:21:39.503Z - info: Actually installing spell check provider to Electron
+2017-01-27T09:21:40.161Z - info: Unloading spellchecker

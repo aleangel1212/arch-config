@@ -1,0 +1,89 @@
+2017-01-27T09:20:25.651Z - info: Window is unloading, winssb is no longer accessible
+2017-01-27T09:20:25.720Z - info: Window is unloading, winssb is no longer accessible
+2017-01-27T09:20:42.613Z - info: Window is unloading, winssb is no longer accessible
+2017-01-27T09:20:50.226Z - info: Window is unloading, winssb is no longer accessible
+2017-01-27T09:20:50.898Z - info: Window is unloading, winssb is no longer accessible
+2017-01-27T09:20:51.724Z - info: ADD_NEW_TEAM : {
+  "id": "U3EJ8BNKT",
+  "name": "avecchi",
+  "team_id": "T3FUULUEB",
+  "team_name": "UCF CAHWeb",
+  "team_url": "https://ucfcahweb.slack.com/"
+}
+2017-01-27T09:20:51.730Z - info: SET_LOGIN_DIALOG : false
+2017-01-27T09:52:33.801Z - info: updateSuspendResume: true
+2017-01-27T09:52:36.081Z - info: UPDATE_NO_DRAG_REGION : {
+  "region": {
+    "id": "search",
+    "width": 305,
+    "height": 34,
+    "top": 13.1875,
+    "left": 1221
+  }
+}
+2017-01-27T09:52:36.263Z - info: SELECT_CHANNEL : "C3F8LF5V0"
+2017-01-27T09:52:36.274Z - info: UPDATE_TEAM_THEME : {
+  "theme": {
+    "column_bg": "#4D394B",
+    "menu_bg": "#3E313C",
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "hover_item": "#3E313C",
+    "text_color": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C"
+  },
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:52:37.219Z - info: UPDATE_TEAM_ICONS : {
+  "icons": false,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:52:37.491Z - info: UPDATE_UNREADS_INFO : {
+  "unreads": 0,
+  "unreadHighlights": 0,
+  "showBullet": true,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:52:37.694Z - info: UPDATE_UNREADS_INFO : {
+  "unreads": 0,
+  "unreadHighlights": 0,
+  "showBullet": true,
+  "teamId": "T3FUULUEB"
+}
+2017-01-27T09:52:38.626Z - info: Unloading spellchecker
+2017-01-27T09:52:38.789Z - info: Unloading spellchecker
+2017-01-27T09:52:42.264Z - info: Failed to get messages from webapp: Failed to fetch recent messages
+2017-01-27T09:52:43.443Z - info: Unloading spellchecker
+2017-01-27T09:52:44.271Z - info: Unloading spellchecker
+2017-01-27T09:52:44.848Z - info: Unloading spellchecker
+2017-01-27T09:52:48.263Z - info: Failed to get messages from webapp: Failed to fetch recent messages
+2017-01-27T09:53:10.016Z - info: Unloading spellchecker
+2017-01-27T09:53:18.366Z - info: Unloading spellchecker
+2017-01-27T09:53:19.498Z - info: Unloading spellchecker
+2017-01-27T11:21:50.877Z - info: Unloading spellchecker
+2017-01-27T11:21:51.419Z - info: Unloading spellchecker
+2017-01-27T11:21:52.267Z - info: Unloading spellchecker
+2017-01-27T11:21:52.631Z - info: Unloading spellchecker
+2017-01-27T11:21:52.943Z - info: Unloading spellchecker
+2017-01-27T11:21:53.287Z - info: Unloading spellchecker
+2017-01-27T11:21:53.683Z - info: Unloading spellchecker
+2017-01-27T11:21:54.323Z - info: Unloading spellchecker
+2017-01-27T11:23:01.792Z - info: Unloading spellchecker
+2017-01-27T11:23:02.328Z - info: Unloading spellchecker
+2017-01-27T11:23:02.783Z - info: Unloading spellchecker
+2017-01-27T11:23:03.303Z - info: Unloading spellchecker
+2017-01-27T11:23:03.840Z - info: Unloading spellchecker
+2017-01-27T11:23:04.402Z - info: Unloading spellchecker
+2017-01-27T11:23:05.161Z - info: Unloading spellchecker
+2017-01-27T11:23:05.969Z - info: Unloading spellchecker
+2017-01-27T11:23:06.448Z - info: Unloading spellchecker
+2017-01-27T11:23:07.218Z - info: Unloading spellchecker
+2017-01-27T11:23:07.712Z - info: Unloading spellchecker
+2017-01-27T11:23:08.072Z - info: Unloading spellchecker
+2017-01-27T11:23:08.376Z - info: Unloading spellchecker
+2017-01-27T11:23:08.706Z - info: Unloading spellchecker
+2017-01-27T11:23:10.603Z - info: Unloading spellchecker
+2017-01-27T12:12:34.193Z - info: Unloading spellchecker
+2017-01-27T12:12:38.617Z - info: Unloading spellchecker
+2017-01-27T12:13:47.580Z - info: Unloading spellchecker

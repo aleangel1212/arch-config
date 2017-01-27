@@ -1,3 +1,4 @@
 .DS_Store
 config/.config/chromium
-config/.config/wpdevmanager
+config/.config/wpdevmanage
+config/.config/sublime-text-3

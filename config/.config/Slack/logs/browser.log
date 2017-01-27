@@ -1,0 +1,88 @@
+2017-01-27T09:19:44.953Z - info: Initializing local storage instance at path: /etc/arch-config/config/.config/Slack/local-settings.json
+2017-01-27T09:19:45.193Z - info: persist/REHYDRATE 
+2017-01-27T09:19:45.196Z - info: Initializing local storage instance at path: /etc/arch-config/config/.config/Slack/redux-state.json
+2017-01-27T09:19:45.197Z - info: UPDATE_SETTINGS : {
+  "hasMigratedData": {
+    "macgap": false,
+    "redux": true
+  }
+}
+2017-01-27T09:19:45.359Z - info: INITIALIZE_SETTINGS : {
+  "isDevMode": false,
+  "appVersion": "2.4.2",
+  "versionName": "Valerie",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "launchedWithLink": null,
+  "webappSrcPath": null,
+  "launchOnStartup": false,
+  "releaseChannel": "prod",
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "platformVersion": {
+    "major": 4,
+    "minor": 8,
+    "build": 13
+  },
+  "isTitleBarHidden": false
+}
+2017-01-27T09:19:45.382Z - info: Showing a tray balloon with title: Welcome to Slack!
+2017-01-27T09:19:45.405Z - info: UPDATE_SETTINGS : {
+  "hasRunApp": true
+}
+2017-01-27T09:19:45.411Z - info: ADD_WINDOW : {
+  "windowId": 2,
+  "windowType": "MAIN"
+}
+2017-01-27T09:19:45.417Z - info: Loading windowMetrics: null
+2017-01-27T09:19:45.418Z - info: SAVE_WINDOW_SETTINGS : {
+  "position": [
+    336,
+    105
+  ],
+  "size": [
+    1008,
+    840
+  ]
+}
+2017-01-27T09:19:45.443Z - info: UPDATE_SETTINGS : {
+  "PrefSSBFileDownloadPath": "/home/ale/Downloads"
+}
+2017-01-27T09:19:45.456Z - info: Welcome to Slack 2.4.2 x64
+2017-01-27T09:19:45.456Z - info: App load time: 520ms
+2017-01-27T09:19:45.457Z - info: SET_FULL_SCREEN : false
+2017-01-27T09:19:46.861Z - info: Main window finished load. Launched on login: false
+2017-01-27T09:52:30.562Z - info: Initializing local storage instance at path: /etc/arch-config/config/.config/Slack/local-settings.json
+2017-01-27T09:52:30.814Z - info: persist/REHYDRATE 
+2017-01-27T09:52:30.979Z - info: INITIALIZE_SETTINGS : {
+  "isDevMode": false,
+  "appVersion": "2.4.2",
+  "versionName": "Valerie",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "launchedWithLink": null,
+  "webappSrcPath": null,
+  "launchOnStartup": false,
+  "releaseChannel": "prod",
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "platformVersion": {
+    "major": 4,
+    "minor": 8,
+    "build": 13
+  },
+  "isTitleBarHidden": false
+}
+2017-01-27T09:52:31.025Z - info: ADD_WINDOW : {
+  "windowId": 2,
+  "windowType": "MAIN"
+}
+2017-01-27T09:52:31.031Z - info: Loading windowMetrics: {"position":[336,105],"size":[1008,840]}
+2017-01-27T09:52:31.057Z - info: Welcome to Slack 2.4.2 x64
+2017-01-27T09:52:31.057Z - info: App load time: 512ms
+2017-01-27T09:52:31.059Z - info: SET_FULL_SCREEN : false
+2017-01-27T09:52:32.499Z - info: Main window finished load. Launched on login: false
