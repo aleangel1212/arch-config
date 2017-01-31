@@ -1,12 +1,70 @@
-source ~/.config/themer/conf
+if [ -z $1 ] || [ -z $2 ]; then
+	echo -e "usage:\n\nsave <theme-name> : saves current theme to themes folder\nload <theme-name> : loads theme from themes folder\ndelete <theme-name> : deletes theme"
+	exit
+fi
 
-while getopts ":s:" opt; do
-	case $opt in
-		s)
-			;;
-		i)
-			;;
-		d)
-			;;
-	esac
-done
+if [ "$1" = "save" ]; then
+	echo "saving theme $2..."
+	
+	cd ~/.config/themer/themes
+
+	if [ -d "$2" ]; then
+		echo -e "theme \"$2\" already exists!\nexiting..."
+		exit
+	fi
+
+	mkdir -p ~/.config/themer/themes/$2
+
+	cp ~/.config/termite/config ~/.config/themer/themes/$2/termite
+	cp ~/.config/i3/config ~/.config/themer/themes/$2/i3
+	cp ~/.Xresources ~/.config/themer/themes/$2/.Xresources
+	cp /etc/lightdm/lightdm-gtk-greeter.conf ~/.config/themer/themes/$2/lightdm
+	cp /etc/arch-config/config/wallpaper.png ~/.config/themer/themes/$2/wallpaper.png
+	cp /etc/arch-config/config/wallpaper.jpg ~/.config/themer/themes/$2/wallpaper.jpg
+
+	echo "done."
+	exit
+fi
+
+if [ "$1" = "load" ]; then
+	echo "loading theme $2..."
+
+	cd ~/.config/themer/themes
+
+	if [ ! -d "$2" ]; then
+		echo -e "theme \"$2\" doesnt exist!\nexiting..."
+		exit
+	fi
+
+	sudo cp -f ~/.config/themer/themes/$2/termite ~/.config/termite/config
+	sudo cp -f ~/.config/themer/themes/$2/i3 ~/.config/i3/config
+	sudo cp -f ~/.config/themer/themes/$2/.Xresources ~/.Xresources
+	sudo cp -f ~/.config/themer/themes/$2/lightdm /etc/lightdm/lightdm-gtk-greeter.conf 
+	sudo cp -f ~/.config/themer/themes/$2/wallpaper.png /etc/arch-config/config/wallpaper.png
+	sudo cp -f ~/.config/themer/themes/$2/wallpaper.jpg /etc/arch-config/config/wallpaper.jpg
+
+fi
+
+if [ "$1" = "delete" ]; then
+
+	cd ~/.config/themer/themes
+
+	if [ ! -d "$2" ]; then
+		echo -e "theme \"$2\" doesnt exist!\nexiting..."
+		exit
+	fi
+
+	echo -n "are you sure you want to delete theme: $2? [y/N]: "
+	read answer
+
+	if [ "$answer" == "y" ]; then
+		echo "deleting theme: $2..."
+		rm -r ~/.config/themer/themes/$2
+		echo "done."
+		exit
+	fi
+
+	echo "exiting..."
+	exit
+
+fi
