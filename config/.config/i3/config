@@ -164,17 +164,17 @@ bar {
 
 	colors {
 
-		background #1d1f21
+		background #000000
 		
 		#			border		background	text
-		focused_workspace 	#c5c8c6 	#c5c8c6 	#1d1f21
-		inactive_workspace	#1d1f21		#1d1f21		#c5c8c6
-		urgent_workspace	#a54242		#a54242		#c5c8c6
+		focused_workspace 	#c100c0 	#c100c0 	#FFFFFF
+		inactive_workspace	#000000		#000000		#FFFFFF
+		urgent_workspace	#FFFFFF		#FFFFFF		#c100c0
 	}
 }
 
 # disable window borders
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
 
 hide_edge_borders both
 # class                 border  backgr. text    indicator child_border
@@ -197,5 +197,5 @@ workspace $workspace2 output DVI-1
 
 
 #exec_always --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
-exec_always --no-startup-id feh --bg-scale /etc/arch-config/config/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale /etc/arch-config/config/wallpaper.png
 exec_always --no-startup-id compton --config /home/ale/.config/compton/compton.conf

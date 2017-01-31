@@ -44,7 +44,9 @@ if [ "$1" = "load" ]; then
 	sudo cp -f ~/.config/themer/themes/$2/wallpaper.jpg /etc/arch-config/config/wallpaper.jpg
 
 	exec xrdb ~/.Xresources
-	
+
+	exec i3 restart
+
 	echo "done."
 	exit
 
