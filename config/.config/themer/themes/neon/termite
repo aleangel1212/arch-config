@@ -1,0 +1,42 @@
+[options]
+font = Inconsolata 10
+
+[colors]
+
+# special
+foreground      = #ffffff
+foreground_bold = #ffffff
+cursor          = #ffffff
+background      = #000000
+
+# black
+color0  = #911fcf
+color8  = #c100c0
+
+# red
+color1  = #363d56
+color9  = #520852
+
+# green
+color2  = #2e3a81
+color10 = #ac69bd
+
+# yellow
+color3  = #005da7
+color11 = #990296
+
+# blue
+color4  = #1c91a5
+color12 = #7b0868
+
+# magenta
+color5  = #003a67
+color13 = #8a00aa
+
+# cyan
+color6  = #006fc8
+color14 = #5d58c7
+
+# white
+color7  = #6a237e
+color15 = #abd4ff

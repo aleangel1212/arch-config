@@ -43,6 +43,11 @@ if [ "$1" = "load" ]; then
 	sudo cp -f ~/.config/themer/themes/$2/wallpaper.png /etc/arch-config/config/wallpaper.png
 	sudo cp -f ~/.config/themer/themes/$2/wallpaper.jpg /etc/arch-config/config/wallpaper.jpg
 
+	exec xrdb ~/.Xresources
+	
+	echo "done."
+	exit
+
 fi
 
 if [ "$1" = "delete" ]; then
