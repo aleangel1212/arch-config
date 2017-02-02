@@ -2,8 +2,10 @@ shell
 open_with
 rename refind-bin-0.10.
 shell cd ~/.config
-open_with 
 open_with subl3
 s
-
 shell rm -r test
+
+open_with 
+open_with 2
+shell mv reset.css _reset.scss

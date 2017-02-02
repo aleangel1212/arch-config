@@ -122,6 +122,11 @@ bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 
+# Media player controls
+bindsym XF86AudioPlay exec mpc toggle
+bindsym XF86AudioNext exec mpc next
+bindsym XF86AudioPrev exec mpc previous
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -174,16 +179,16 @@ bar {
 }
 
 # disable window borders
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
 
 hide_edge_borders both
 # class                 border  backgr. text    indicator child_border
-client.focused          #c100c0 #c100c0 #ffffff #c100c0   #c100c0
-client.focused_inactive #000000 #000000 #ffffff #000000   #000000
-client.unfocused        #000000 #000000 #ffffff #000000   #000000
-client.urgent           #ffffff #ffffff #c100c0 #ffffff   #ffffff
+client.focused          #B5BD68 #B5BD68 #ffffff #B5BD68   #B5BD68
+client.focused_inactive #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.unfocused        #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.urgent           #A54242 #A54242 #282A2E #A54242   #A54242
 
-client.background       #ffffff
+client.background       #282A2E2
 
 # display profiles
 bindsym Control+Shift+m exec --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 3840x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal

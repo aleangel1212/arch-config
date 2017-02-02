@@ -5,3 +5,5 @@ message/rfc822=userapp-Thunderbird-UK2BUY.desktop
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-UK2BUY.desktop;
 message/rfc822=userapp-Thunderbird-UK2BUY.desktop;
+image/jpeg=feh.desktop;
+image/png=feh.desktop;

@@ -157,6 +157,26 @@
 				"selected_items":
 				[
 					[
+						"font",
+						"font-family"
+					],
+					[
+						"fot",
+						"font-family"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"ine",
+						"inline-block"
+					],
+					[
+						"di",
+						"display"
+					],
+					[
 						"exit",
 						"exit"
 					],
@@ -173,10 +193,19 @@
 			"buffers":
 			[
 				{
-					"file": "/etc/arch-config/scripts/utilities/themer",
+					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/front-page.php",
 					"settings":
 					{
-						"buffer_size": 1880,
+						"buffer_size": 911,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
+					"settings":
+					{
+						"buffer_size": 766,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -222,13 +251,25 @@
 			},
 			"file_history":
 			[
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_footer.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_header.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/404.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/index.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/helpers/_variables.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/functions.php",
+				"/srv/http/thefloridareview/wp-config.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/style.css",
+				"/etc/arch-config/scripts/utilities/themer",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
 				"/etc/arch-config/scripts/utilities/sshmount",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/style.css",
 				"/home/ale/Documents/Projects/wpdevmanager/bin/wpdb",
-				"/etc/arch-config/scripts/utilities/themer",
 				"/home/ale/.config/termite/config"
 			],
 			"find":
@@ -247,6 +288,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					";\n",
+					"{\n",
+					";\n",
 					"2",
 					" -",
 					"cp",
@@ -273,30 +317,59 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/etc/arch-config/scripts/utilities/themer",
+							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/front-page.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1880,
+								"buffer_size": 911,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1738,
-										1738
+										911,
+										911
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 225.0,
+								"translation.y": 96.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 766,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										645,
+										645
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 144.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
 							"type": "text"
 						}
 					]
@@ -338,7 +411,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1940,44,2871,1056,5760,1080",
+			"position": "0,0,0,0,0,1940,44,2871,1056,3840,1080",
 			"project": "",
 			"replace":
 			{
