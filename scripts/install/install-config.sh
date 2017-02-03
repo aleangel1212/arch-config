@@ -6,6 +6,9 @@ sudo rm -r ~/.config
 echo "deleting current ~/.zshrc"
 sudo rm -r ~/.zshrc
 
+echo "deleting current ~/.Xresources"
+sudo rm -r ~/.Xresources
+
 echo -e "\ncreating symlink in home directory for .config"
 ln -s /etc/arch-config/config/.config ~/.config
 
