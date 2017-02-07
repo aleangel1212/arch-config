@@ -1805,7 +1805,7 @@ skins2-last=/usr/share/vlc/skins2/default.vlt
 #alsa-audio-channels=6
 
 # Software gain (float)
-alsa-gain=0.343000
+#alsa-gain=1.000000
 
 [amem] # Audio memory output
 
@@ -1953,6 +1953,11 @@ alsa-gain=0.343000
 
 # Buffer Size (Seconds) (integer)
 #dash-buffersize=30
+
+[notify] # LibNotify Notification Plugin
+
+# Timeout (ms) (integer)
+#notify-timeout=4000
 
 [xcb_window] # X11 video window (XCB)
 
