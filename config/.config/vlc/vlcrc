@@ -89,7 +89,7 @@ qt-privacy-ask=0
 skins2-last=/usr/share/vlc/skins2/default.vlt
 
 # Config of last used skin (string)
-#skins2-config=
+skins2-config=["aboutwin" "aboutwinwin-main" 795 454 330 171 0]["eqwin" "eqwin-main" 795 454 330 171 0]["fullscreenController" "fsc_normal" 710 918 500 130 0]["main" "normal" 710 365 500 350 1]["plwin" "plwin-normal" 806 419 500 350 0]
 
 # Enable transparency effects (boolean)
 #skins2-transparency=0
@@ -1799,13 +1799,13 @@ skins2-last=/usr/share/vlc/skins2/default.vlt
 [alsa] # ALSA audio output
 
 # Audio output device (string)
-#alsa-audio-device=default
+alsa-audio-device=hdmi:CARD=HDMI,DEV=0
 
 # Audio output channels (integer)
 #alsa-audio-channels=6
 
 # Software gain (float)
-#alsa-gain=1.000000
+alsa-gain=1.953125
 
 [amem] # Audio memory output
 
@@ -2045,7 +2045,7 @@ skins2-last=/usr/share/vlc/skins2/default.vlt
 #lua-config=
 
 # Password (string)
-#http-password=
+http-password=mxermxer
 
 # Source directory (string)
 #http-src=
@@ -3629,7 +3629,7 @@ skins2-last=/usr/share/vlc/skins2/default.vlt
 #audio-time-stretch=1
 
 # Audio output module (string)
-#aout=
+aout=alsa
 
 # Audio filters (string)
 #audio-filter=
@@ -4040,7 +4040,7 @@ skins2-last=/usr/share/vlc/skins2/default.vlt
 #packetizer=
 
 # VoD server module (string)
-#vod-server=
+vod-server=any
 
 # Use a plugins cache (boolean)
 #plugins-cache=1
@@ -4130,7 +4130,7 @@ metadata-network-access=1
 #intf=
 
 # Extra interface modules (string)
-#extraintf=
+extraintf=http
 
 # Control interfaces (string)
 #control=

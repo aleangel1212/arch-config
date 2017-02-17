@@ -50,8 +50,7 @@
 ; method = pulse
 ; source = auto
 
-method = alsa  
-source = hw:Loopback,1 
+method = pulse 
 
 ; method = fifo
 ; source = /tmp/mpd.fifo

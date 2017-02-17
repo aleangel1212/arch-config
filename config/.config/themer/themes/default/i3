@@ -85,8 +85,8 @@ bindsym $mod+Shift+space floating toggle
 set $workspace1 " Chrome"
 set $workspace2 " Terminals"
 set $workspace3 " Messaging"
-set $workspace4 " Music"
-set $workspace5 5
+set $workspace4 " Media"
+set $workspace5 " Misc"
 set $workspace6 6
 set $workspace7 7
 set $workspace8 8
