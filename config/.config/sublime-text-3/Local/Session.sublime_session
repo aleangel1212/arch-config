@@ -1,10 +1,13 @@
 {
 	"folder_history":
 	[
-		"/home/ale/VirtualDrives/Pi/Test"
+		"/home/ale/VirtualDrives/Pi/Test",
+		"/home/ale/VirtualDrives/Pi/meantest",
+		"/home/ale/VirtualDrives/Pi/Mean.io",
+		"/home/ale/VirtualDrives/Pi/Test/public"
 	],
 	"last_version": 3126,
-	"last_window_id": 5,
+	"last_window_id": 6,
 	"log_indexing": false,
 	"settings":
 	{
@@ -16,12 +19,76 @@
 				"selected_items":
 				[
 					[
-						"is",
-						"issue_excerpt"
+						"meet",
+						"meetup"
+					],
+					[
+						"mee",
+						"meetup"
+					],
+					[
+						"meetups",
+						"meetups"
+					],
+					[
+						"art",
+						"article"
+					],
+					[
+						"arti",
+						"article-display"
+					],
+					[
+						"inlin",
+						"inline-block"
+					],
+					[
+						"auth",
+						"auth_url"
+					],
+					[
+						"margi",
+						"margin-bottom"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"fon",
+						"font"
+					],
+					[
+						"parse",
+						"parse_url"
 					],
 					[
 						"back",
-						"background-size"
+						"background-position"
+					],
+					[
+						"a",
+						"author"
+					],
+					[
+						"autho",
+						"author-image"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"is",
+						"issue_excerpt"
 					],
 					[
 						"getth",
@@ -44,20 +111,12 @@
 						"article_cat"
 					],
 					[
-						"arti",
-						"article_cat"
-					],
-					[
 						"for",
 						"foreach\tforeach …"
 					],
 					[
 						"arr",
 						"array"
-					],
-					[
-						"art",
-						"article-display"
 					],
 					[
 						"post",
@@ -80,20 +139,12 @@
 						"font-size"
 					],
 					[
-						"fon",
-						"font-family"
-					],
-					[
 						"wid",
 						"width"
 					],
 					[
 						"di",
 						"div\tTag"
-					],
-					[
-						"font",
-						"font-weight"
 					],
 					[
 						"ine",
@@ -152,28 +203,56 @@
 			},
 			"file_history":
 			[
+				"/home/ale/VirtualDrives/Pi/Test/public/js/controllers/meetups-controller.js",
+				"/home/ale/VirtualDrives/Pi/Test/server/controllers/meetups-controller.js",
+				"/home/ale/VirtualDrives/Pi/Test/server.js",
+				"/home/ale/VirtualDrives/Pi/Test/server/models/meetup.js",
 				"/home/ale/VirtualDrives/Pi/Test/public/index.html",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_sidebar.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_footer.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/footer.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
+				"/home/ale/VirtualDrives/Pi/Test/public/js/app.js",
+				"/etc/arch-config/scripts/utilities/themer",
+				"/etc/arch-config/config/.config/i3/compile",
+				"/home/ale/.config/themer/themes/neon/i3",
+				"/home/ale/.config/themer/themes/neon/i3visuals",
+				"/home/ale/.config/themer/themes/default/i3visuals",
+				"/etc/arch-config/config/.config/themer/themes/neon/i3visuals",
+				"/etc/arch-config/config/.config/themer/themes/neon/i3",
+				"/etc/arch-config/config/.config/i3/visuals",
+				"/etc/arch-config/config/.config/i3/startup",
+				"/etc/arch-config/config/.config/i3/vis",
+				"/etc/arch-config/config/.config/i3/config",
+				"/etc/arch-config/config/.config/i3/mediacontrols",
+				"/etc/arch-config/config/.config/i3/workspaces",
+				"/etc/arch-config/config/.config/i3/keybindings",
+				"/etc/arch-config/config/.config/i3/colors",
+				"/etc/arch-config/config/.config/i3/displayprofiles",
+				"/etc/arch-config/config/.config/i3/mediacontrolls",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/front-page.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/footer.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_footer.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_sidebar.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/helpers/_variables.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/single.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_single.scss",
+				"/srv/http/index.php",
+				"/srv/http/thefloridareview/wp-content/plugins/article-cpt/article.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/sidebar.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
+				"/home/ale/.zshrc",
+				"/home/ale/Downloads/mopidy-pulseaudio/README.rst",
+				"/home/ale/VirtualDrives/Pi/moveturtle.py",
 				"/home/ale/temp",
 				"/srv/http/thefloridareview/wp-content/plugins/issue-cpt/views/info.php",
-				"/srv/http/thefloridareview/wp-content/plugins/article-cpt/article.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/404.php",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/page.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_header.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/index.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/helpers/_variables.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/functions.php",
 				"/srv/http/thefloridareview/wp-config.php",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/style.css",
-				"/etc/arch-config/scripts/utilities/themer",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
@@ -184,11 +263,11 @@
 			],
 			"find":
 			{
-				"height": 70.0
+				"height": 82.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 158.0,
 				"where_history":
 				[
 				]
@@ -198,6 +277,22 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					");\n",
+					"');\n",
+					"cat",
+					"config",
+					"width: 100%;\n\t\t\t\t\tdisplay: inline-block;",
+					"display: inline-block;",
+					"inline-block",
+					";\n",
+					"358CA6",
+					"url",
+					"3",
+					"4",
+					";\n",
+					"banner",
+					";\n",
+					"bottom",
 					"250",
 					"true",
 					";\n",
@@ -300,8 +395,76 @@
 				"selected_items":
 				[
 					[
+						"col",
+						"color"
+					],
+					[
+						"li",
+						"link\tTag"
+					],
+					[
+						"req",
+						"require"
+					],
+					[
+						"meet",
+						"meetup"
+					],
+					[
+						"mee",
+						"meetup"
+					],
+					[
+						"meetups",
+						"meetups"
+					],
+					[
+						"art",
+						"article"
+					],
+					[
+						"arti",
+						"article-display"
+					],
+					[
+						"inlin",
+						"inline-block"
+					],
+					[
+						"auth",
+						"auth_url"
+					],
+					[
+						"margi",
+						"margin-bottom"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"fon",
+						"font"
+					],
+					[
+						"parse",
+						"parse_url"
+					],
+					[
 						"back",
-						"background-image"
+						"background-position"
+					],
+					[
+						"a",
+						"author"
+					],
+					[
+						"autho",
+						"author-image"
 					],
 					[
 						"font",
@@ -336,20 +499,12 @@
 						"article_cat"
 					],
 					[
-						"arti",
-						"article_cat"
-					],
-					[
 						"for",
 						"foreach\tforeach …"
 					],
 					[
 						"arr",
 						"array"
-					],
-					[
-						"art",
-						"article-display"
 					],
 					[
 						"post",
@@ -370,10 +525,6 @@
 					[
 						"fot",
 						"font-size"
-					],
-					[
-						"fon",
-						"font-family"
 					],
 					[
 						"wid",
@@ -404,46 +555,28 @@
 			"buffers":
 			[
 				{
-					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/single.php",
+					"file": "/home/ale/VirtualDrives/Pi/Test/public/ledcontrol.html",
 					"settings":
 					{
-						"buffer_size": 840,
+						"buffer_size": 501,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/front-page.php",
+					"file": "/home/ale/VirtualDrives/Pi/Test/server/controllers/led-controller.js",
 					"settings":
 					{
-						"buffer_size": 3687,
+						"buffer_size": 405,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
+					"file": "/home/ale/VirtualDrives/Pi/Test/public/js/controllers/led-controller.js",
 					"settings":
 					{
-						"buffer_size": 989,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_single.scss",
-					"settings":
-					{
-						"buffer_size": 115,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
-					"settings":
-					{
-						"buffer_size": 1402,
+						"buffer_size": 230,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -487,36 +620,72 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/home/ale/VirtualDrives/Pi/Test",
+				"/home/ale/VirtualDrives/Pi/Test/public",
+				"/home/ale/VirtualDrives/Pi/Test/public/css",
+				"/home/ale/VirtualDrives/Pi/Test/public/js",
+				"/home/ale/VirtualDrives/Pi/Test/public/js/controllers",
+				"/home/ale/VirtualDrives/Pi/Test/server",
+				"/home/ale/VirtualDrives/Pi/Test/server/controllers"
+			],
 			"file_history":
 			[
-				"/home/ale/.zshrc",
-				"/home/ale/Downloads/mopidy-pulseaudio/README.rst",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
-				"/home/ale/VirtualDrives/Pi/moveturtle.py",
 				"/home/ale/VirtualDrives/Pi/Test/public/js/controllers/meetups-controller.js",
 				"/home/ale/VirtualDrives/Pi/Test/public/index.html",
-				"/home/ale/VirtualDrives/Pi/Test/public/js/app.js",
+				"/home/ale/VirtualDrives/Pi/Test/server/controllers/led-controller.js",
+				"/home/ale/VirtualDrives/Pi/Test/public/css/style.css",
+				"/home/ale/VirtualDrives/Pi/Test/public/ledcontrol.html",
 				"/home/ale/VirtualDrives/Pi/Test/server.js",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_sidebar.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_footer.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/footer.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
+				"/home/ale/VirtualDrives/Pi/Test/server/controllers/led-controller",
+				"/home/ale/VirtualDrives/Pi/Test/server/controllers/meetups-controller.js",
+				"/home/ale/VirtualDrives/Pi/Test/server/models/meetup.js",
+				"/home/ale/VirtualDrives/Pi/Test/public/js/app.js",
+				"/etc/arch-config/scripts/utilities/themer",
+				"/etc/arch-config/config/.config/i3/compile",
+				"/home/ale/.config/themer/themes/neon/i3",
+				"/home/ale/.config/themer/themes/neon/i3visuals",
+				"/home/ale/.config/themer/themes/default/i3visuals",
+				"/etc/arch-config/config/.config/themer/themes/neon/i3visuals",
+				"/etc/arch-config/config/.config/themer/themes/neon/i3",
+				"/etc/arch-config/config/.config/i3/visuals",
+				"/etc/arch-config/config/.config/i3/startup",
+				"/etc/arch-config/config/.config/i3/vis",
+				"/etc/arch-config/config/.config/i3/config",
+				"/etc/arch-config/config/.config/i3/mediacontrols",
+				"/etc/arch-config/config/.config/i3/workspaces",
+				"/etc/arch-config/config/.config/i3/keybindings",
+				"/etc/arch-config/config/.config/i3/colors",
+				"/etc/arch-config/config/.config/i3/displayprofiles",
+				"/etc/arch-config/config/.config/i3/mediacontrolls",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/front-page.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/footer.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_footer.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_sidebar.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/helpers/_variables.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/single.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_single.scss",
+				"/srv/http/index.php",
+				"/srv/http/thefloridareview/wp-content/plugins/article-cpt/article.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/sidebar.php",
+				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
+				"/home/ale/.zshrc",
+				"/home/ale/Downloads/mopidy-pulseaudio/README.rst",
+				"/home/ale/VirtualDrives/Pi/moveturtle.py",
 				"/home/ale/temp",
 				"/srv/http/thefloridareview/wp-content/plugins/issue-cpt/views/info.php",
-				"/srv/http/thefloridareview/wp-content/plugins/article-cpt/article.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/404.php",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/page.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/layout/_header.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/index.php",
-				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/helpers/_variables.scss",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/functions.php",
 				"/srv/http/thefloridareview/wp-config.php",
 				"/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/style.css",
-				"/etc/arch-config/scripts/utilities/themer",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/scss/main.scss",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/header.php",
 				"/home/ale/VirtualDrives/Dev/thefloridareview/wp-content/themes/thefloridareview-theme/scss/components/_navigation.scss",
@@ -531,7 +700,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 158.0,
 				"where_history":
 				[
 				]
@@ -541,6 +710,27 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"status",
+					"'done'",
+					"res",
+					"console",
+					"function(",
+					"js",
+					"err",
+					"if (err) throw err;",
+					");\n",
+					"');\n",
+					"cat",
+					"config",
+					"width: 100%;\n\t\t\t\t\tdisplay: inline-block;",
+					"display: inline-block;",
+					"inline-block",
+					";\n",
+					"358CA6",
+					"url",
+					"3",
+					"4",
+					";\n",
 					"banner",
 					";\n",
 					"bottom",
@@ -580,119 +770,38 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/home/ale/VirtualDrives/Pi/Test"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/single.php",
+							"file": "/home/ale/VirtualDrives/Pi/Test/public/ledcontrol.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 840,
+								"buffer_size": 501,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										677,
-										677
+										287,
+										287
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/front-page.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3687,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1138,
-										1138
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 193.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/themes/_theme.scss",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 989,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										744,
-										744
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 336.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_single.scss",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 115,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										115,
-										115
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -702,32 +811,60 @@
 							"type": "text"
 						},
 						{
-							"buffer": 4,
-							"file": "/srv/http/thefloridareview/wp-content/themes/thefloridareview-theme/scss/pages/_front-page.scss",
+							"buffer": 1,
+							"file": "/home/ale/VirtualDrives/Pi/Test/server/controllers/led-controller.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1402,
+								"buffer_size": 405,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										921,
-										921
+										215,
+										215
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 864.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/ale/VirtualDrives/Pi/Test/public/js/controllers/led-controller.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 230,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										112,
+										112
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
@@ -769,7 +906,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,3860,44,4791,1056,5760,1080",
+			"position": "0,0,0,0,0,1940,44,3816,1056,3840,1080",
 			"project": "",
 			"replace":
 			{
@@ -811,12 +948,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 202.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 5,
+			"window_id": 6,
 			"workspace_name": ""
 		}
 	],

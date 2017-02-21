@@ -1,0 +1,7 @@
+# configure default workspaces
+workspace $workspace1 output DVI-0
+workspace $workspace2 output DVI-1
+
+#exec_always --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
+exec_always --no-startup-id compton --config /home/ale/.config/compton/compton.conf
+

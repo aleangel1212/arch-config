@@ -8,3 +8,4 @@ message/rfc822=userapp-Thunderbird-UK2BUY.desktop;
 image/jpeg=feh.desktop;
 image/png=feh.desktop;
 text/plain=sublime_text_3.desktop;
+application/pdf=chromium.desktop;feh.desktop;zathura.desktop;

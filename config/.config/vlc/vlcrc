@@ -1805,7 +1805,7 @@ alsa-audio-device=hdmi:CARD=HDMI,DEV=0
 #alsa-audio-channels=6
 
 # Software gain (float)
-alsa-gain=1.953125
+alsa-gain=1.625472
 
 [amem] # Audio memory output
 

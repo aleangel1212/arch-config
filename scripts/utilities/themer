@@ -16,12 +16,10 @@ if [ "$1" = "save" ]; then
 	mkdir -p ~/.config/themer/themes/$2
 
 	cp ~/.config/termite/config ~/.config/themer/themes/$2/termite
-	cp ~/.config/i3/config ~/.config/themer/themes/$2/i3
+	cp ~/.config/i3/visuals ~/.config/themer/themes/$2/i3visuals
 	cp ~/.config/i3/i3blocks.conf ~/.config/themer/themes/$2/i3blocks
 	cp ~/.Xresources ~/.config/themer/themes/$2/.Xresources
 	cp /etc/lightdm/lightdm-gtk-greeter.conf ~/.config/themer/themes/$2/lightdm
-	cp /etc/arch-config/config/wallpaper.png ~/.config/themer/themes/$2/wallpaper.png
-	cp /etc/arch-config/config/wallpaper.jpg ~/.config/themer/themes/$2/wallpaper.jpg
 
 	echo "done."
 	exit
@@ -38,16 +36,15 @@ if [ "$1" = "load" ]; then
 	fi
 
 	sudo cp -f ~/.config/themer/themes/$2/termite ~/.config/termite/config
-	sudo cp -f ~/.config/themer/themes/$2/i3 ~/.config/i3/config
+	sudo cp -f ~/.config/themer/themes/$2/i3visuals ~/.config/i3/visuals
 	sudo cp -f ~/.config/themer/themes/$2/i3blocks ~/.config/i3/i3blocks.conf
 	sudo cp -f ~/.config/themer/themes/$2/.Xresources ~/.Xresources
 	sudo cp -f ~/.config/themer/themes/$2/lightdm /etc/lightdm/lightdm-gtk-greeter.conf 
-	sudo cp -f ~/.config/themer/themes/$2/wallpaper.png /etc/arch-config/config/wallpaper.png
-	sudo cp -f ~/.config/themer/themes/$2/wallpaper.jpg /etc/arch-config/config/wallpaper.jpg
 
-	exec xrdb ~/.Xresources
+	xrdb ~/.Xresources
+	compilei3
 
-	exec i3 restart
+	i3 restart
 
 	echo "done."
 	exit

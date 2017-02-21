@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cat ~/.config/i3/keybindings > ~/.config/i3/config
+cat ~/.config/i3/visuals >> ~/.config/i3/config
+cat ~/.config/i3/workspaces >> ~/.config/i3/config
+cat ~/.config/i3/mediacontrols >> ~/.config/i3/config
+cat ~/.config/i3/displayprofiles >> ~/.config/i3/config
+cat ~/.config/i3/startup >> ~/.config/i3/config

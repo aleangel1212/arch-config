@@ -1,0 +1,33 @@
+gaps inner 10
+gaps outer 10
+
+font pango:Open Sans 11
+
+bar {	
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	position top
+
+	colors {
+
+		background #1d1f21
+		
+		#			border		background	text
+		focused_workspace 	#c5c8c6 	#c5c8c6 	#1d1f21
+		inactive_workspace	#1d1f21		#1d1f21		#c5c8c6
+		urgent_workspace	#a54242		#a54242		#c5c8c6
+	}
+}
+
+# disable window borders
+for_window [class="^.*"] border pixel 2
+
+hide_edge_borders both
+# class                 border  backgr. text    indicator child_border
+client.focused          #B5BD68 #B5BD68 #ffffff #B5BD68   #B5BD68
+client.focused_inactive #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.unfocused        #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.urgent           #A54242 #A54242 #282A2E #A54242   #A54242
+
+client.background       #282A2E2
+
+exec_always --no-startup-id feh --bg-scale /etc/arch-config/config/wallpapers/default.jpg
