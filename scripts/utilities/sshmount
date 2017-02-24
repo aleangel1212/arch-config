@@ -2,20 +2,19 @@
 
 if [ -z "$1" ];then
 	echo "usage: sshmount {drive}"
-fi
 
-if [ "$1" = "bigveech" ];then
+elif [ "$1" = "bigveech" ];then
 	sshfs -o IdentityFile=~/.ssh/id_rsa ale@10.0.0.15:/media/BigVeech ~/VirtualDrives/BigVeech
-fi
 
-if [ "$1" = "dev" ];then
+elif [ "$1" = "dev" ];then
 	sshfs -o IdentityFile=~/.ssh/id_rsa ale@10.171.228.130:/srv/http ~/VirtualDrives/Dev
-fi
 
-if [ "$1" = "net1252" ];then
+elif [ "$1" = "net1252" ];then
 	mount -t cifs -o user=al069481 //net.ucf.edu/cah/net1252_websites ~/VirtualDrives/net1252
-fi
 
-if [ "$1" = "pi" ];then
+elif [ "$1" = "pi" ];then
 	sshfs ale@10.0.0.11:/home/ale/Documents/Projects ~/VirtualDrives/Pi
+
+else
+	echo "$1 is not a valid drive!"
 fi

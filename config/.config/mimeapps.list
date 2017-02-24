@@ -1,10 +1,10 @@
 [Default Applications]
-x-scheme-handler/mailto=userapp-Thunderbird-UK2BUY.desktop
-message/rfc822=userapp-Thunderbird-UK2BUY.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-YKJFWY.desktop
+message/rfc822=userapp-Thunderbird-YKJFWY.desktop
 
 [Added Associations]
-x-scheme-handler/mailto=userapp-Thunderbird-UK2BUY.desktop;
-message/rfc822=userapp-Thunderbird-UK2BUY.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-UK2BUY.desktop;userapp-Thunderbird-YKJFWY.desktop;
+message/rfc822=userapp-Thunderbird-UK2BUY.desktop;userapp-Thunderbird-YKJFWY.desktop;
 image/jpeg=feh.desktop;
 image/png=feh.desktop;
 text/plain=sublime_text_3.desktop;
