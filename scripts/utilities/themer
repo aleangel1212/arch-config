@@ -20,6 +20,8 @@ if [ "$1" = "save" ]; then
 	cp ~/.config/i3/i3blocks.conf ~/.config/themer/themes/$2/i3blocks
 	cp ~/.Xresources ~/.config/themer/themes/$2/.Xresources
 	cp /etc/lightdm/lightdm-gtk-greeter.conf ~/.config/themer/themes/$2/lightdm
+	cp ~/.config/gtk-3.0/settings.ini ~/.config/themer/themes/$2/gtk3
+	cp ~/.gtkrc-2.0 ~/.config/themer/themes/$2/gtk2
 
 	echo "done."
 	exit
@@ -39,7 +41,9 @@ if [ "$1" = "load" ]; then
 	sudo cp -f ~/.config/themer/themes/$2/i3visuals ~/.config/i3/visuals
 	sudo cp -f ~/.config/themer/themes/$2/i3blocks ~/.config/i3/i3blocks.conf
 	sudo cp -f ~/.config/themer/themes/$2/.Xresources ~/.Xresources
-	sudo cp -f ~/.config/themer/themes/$2/lightdm /etc/lightdm/lightdm-gtk-greeter.conf 
+	sudo cp -f ~/.config/themer/themes/$2/lightdm /etc/lightdm/lightdm-gtk-greeter.conf
+	sudo cp -f ~/.config/themer/themes/$2/gtk3 ~/.config/gtk-3.0/settings.ini
+	sudo cp -f ~/.config/themer/themes/$2/gtk2 ~/.gtkrc-2.0
 
 	xrdb ~/.Xresources
 	compilei3

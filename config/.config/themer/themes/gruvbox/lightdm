@@ -45,7 +45,7 @@
 #  transition-duration = overrides default value
 #
 [greeter]
-background=/etc/arch-config/config/wallpapers/default.jpg
+background=/etc/arch-config/config/wallpapers/gruvbox.jpg
 #user-background=/etc/arch-config/config/user.png
 #theme-name=Arc-Dark
 #icon-theme-name=

@@ -5,8 +5,8 @@ shell cd ~/.config
 open_with subl3
 s
 shell rm -r test
-
 open_with 2
 shell mv reset.css _reset.scss
 open_with 
 shell nautilus 
+
