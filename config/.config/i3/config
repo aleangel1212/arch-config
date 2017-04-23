@@ -119,7 +119,7 @@ client.urgent           #F73028 #F73028 #282A2E #F73028   #F73028
 
 client.background       #282A2E2
 
-exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/gruvbox.jpg
+exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/mountain.jpg
 # define workspaces
 set $workspace1 " Chrome"
 set $workspace2 " Terminals"
@@ -156,8 +156,8 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
 
-bindsym XF86AudioRaiseVolume exec "pactl -- set-sink-volume 1 +1%"
-bindsym XF86AudioLowerVolume exec "pactl -- set-sink-volume 1 -1%"
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo +1%"
+bindsym XF86AudioLowerVolume exec "pactl set-sink-volume alsa_output.pci-0000_00_14.2.analog-stereo -1%"
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 
 bindsym XF86AudioPlay exec playerctl play-pause

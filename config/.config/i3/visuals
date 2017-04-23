@@ -33,4 +33,4 @@ client.urgent           #F73028 #F73028 #282A2E #F73028   #F73028
 
 client.background       #282A2E2
 
-exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/gruvbox.jpg
+exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/mountain.jpg

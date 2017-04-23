@@ -10,7 +10,8 @@ cursor          = #e6d4a3
 background      = #1e1e1e
 
 # black
-color0  = #161819
+#color0  = #161819
+color0 = #1e1e1e
 color8  = #7f7061
 
 # red

@@ -8,6 +8,8 @@
     <Directory>chrome-apps.directory</Directory>
     <Include>
         <Filename>chrome-cnciopoikihiagdjbjpnocolokfelagl-Default.desktop</Filename>
+        <Filename>chrome-fhbjgbiflinjbdggehcddcbncdddomop-Default.desktop</Filename>
+        <Filename>chrome-gclcddgeeaknflkijpcbplmhbkonmlij-Default.desktop</Filename>
     </Include>
 </Menu>
 </Menu>
