@@ -95,15 +95,15 @@ bar {
 
 	colors {
 
-		background #1d1f21
-		statusline #e6d4a3
-		separator #e6d4a3
+		background #272C33
+		statusline #E6E6E6
+		separator #E6E6E6
 		
 		#					border		background	text
-		focused_workspace 	#e6d4a3 	#e6d4a3 	#1d1f21
-		active_workspace	#1d1f21		#1d1f21		#e6d4a3
-		inactive_workspace	#1d1f21		#1d1f21		#e6d4a3
-		urgent_workspace	#a54242		#a54242		#e6d4a3
+		focused_workspace 	#E6E6E6 	#E6E6E6 	#272C33
+		active_workspace	#272C33		#272C33		#E6E6E6
+		inactive_workspace	#272C33		#272C33		#E6E6E6
+		urgent_workspace	#E78686		#E78686		#272C33
 	}
 }
 
@@ -112,12 +112,12 @@ for_window [class="^.*"] border pixel 2
 
 hide_edge_borders both
 # class                 border  backgr. text    indicator child_border
-client.focused          #e6d4a3 #e6d4a3 #1d1f21 #e6d4a3   #e6d4a3
-client.focused_inactive #282A2E #282A2E #ffffff #282A2E   #282A2E
-client.unfocused        #282A2E #282A2E #ffffff #282A2E   #282A2E
-client.urgent           #F73028 #F73028 #282A2E #F73028   #F73028
+client.focused          #E6E6E6 #E6E6E6 #272C33 #E6E6E6   #E6E6E6
+client.focused_inactive #272C33 #272C33 #ffffff #272C33   #272C33
+client.unfocused        #272C33 #272C33 #ffffff #272C33   #272C33
+client.urgent           #E78686 #E78686 #272C33 #E78686   #E78686
 
-client.background       #282A2E2
+client.background       #272C33
 
 exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/mountain.jpg
 # define workspaces
@@ -173,8 +173,8 @@ bindsym Control+Shift+m exec --no-startup-id xrandr --output DisplayPort-1 --off
 bindsym Control+Shift+s  exec --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
 
 # configure default workspaces
-workspace $workspace1 output DVI-0
-workspace $workspace2 output DVI-1
+workspace $workspace1 output DisplayPort-0
+workspace $workspace2 output DVI-0
 
 #exec_always --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
 exec_always --no-startup-id compton --config /home/ale/.config/compton/compton.conf

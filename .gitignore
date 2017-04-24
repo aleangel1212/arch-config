@@ -6,3 +6,4 @@ config/.config/spotify
 config/.config/Slack
 config/.config/libreoffice/..
 config/.config/i3/startup
+config/.config/pulse
