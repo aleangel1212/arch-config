@@ -7,3 +7,10 @@ config/.config/Slack
 config/.config/libreoffice/..
 config/.config/i3/startup
 config/.config/pulse
+config/.config/Atom
+config/.config/teamviewer
+config/.config/yarn/*/**
+config/.config/Sinew\ Software\ Systems
+config/.config/composer
+config/.config/whatsapp-desktop
+config/.config/configstore

@@ -4,7 +4,7 @@ set $workspace2 " Terminals"
 set $workspace3 " Messaging"
 set $workspace4 " Media"
 set $workspace5 " Misc"
-set $workspace6 6
+set $workspace6 " Games"
 set $workspace7 7
 set $workspace8 8
 set $workspace9 9

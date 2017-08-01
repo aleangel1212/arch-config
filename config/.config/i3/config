@@ -89,44 +89,44 @@ gaps outer 10
 
 font pango:Open Sans 11
 
-bar {	
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	position top
-
-	colors {
-
-		background #272C33
-		statusline #E6E6E6
-		separator #E6E6E6
-		
-		#					border		background	text
-		focused_workspace 	#E6E6E6 	#E6E6E6 	#272C33
-		active_workspace	#272C33		#272C33		#E6E6E6
-		inactive_workspace	#272C33		#272C33		#E6E6E6
-		urgent_workspace	#E78686		#E78686		#272C33
-	}
-}
+#bar {	
+#    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#	position top
+#
+#	colors {
+#
+#		background #1d1f21
+#		statusline #e6d4a3
+#		separator #e6d4a3
+#		
+#		#					border		background	text
+#		focused_workspace 	#e6d4a3 	#e6d4a3 	#1d1f21
+#		active_workspace	#1d1f21		#1d1f21		#e6d4a3
+#		inactive_workspace	#1d1f21		#1d1f21		#e6d4a3
+#		urgent_workspace	#a54242		#a54242		#e6d4a3
+#	}
+#}
 
 # disable window borders
 for_window [class="^.*"] border pixel 2
 
 hide_edge_borders both
 # class                 border  backgr. text    indicator child_border
-client.focused          #E6E6E6 #E6E6E6 #272C33 #E6E6E6   #E6E6E6
-client.focused_inactive #272C33 #272C33 #ffffff #272C33   #272C33
-client.unfocused        #272C33 #272C33 #ffffff #272C33   #272C33
-client.urgent           #E78686 #E78686 #272C33 #E78686   #E78686
+client.focused          #e6d4a3 #e6d4a3 #1d1f21 #e6d4a3   #e6d4a3
+client.focused_inactive #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.unfocused        #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.urgent           #F73028 #F73028 #282A2E #F73028   #F73028
 
-client.background       #272C33
+client.background       #282A2E2
 
-exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/mountain.jpg
+exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/flying_island.jpg
 # define workspaces
 set $workspace1 " Chrome"
 set $workspace2 " Terminals"
 set $workspace3 " Messaging"
 set $workspace4 " Media"
 set $workspace5 " Misc"
-set $workspace6 6
+set $workspace6 " Games"
 set $workspace7 7
 set $workspace8 8
 set $workspace9 9
@@ -164,18 +164,12 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-# display profiles
-
-# Movie Mode
-bindsym Control+Shift+m exec --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 3840x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal
-
-# Standard Mode
-bindsym Control+Shift+s  exec --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
-
 # configure default workspaces
-workspace $workspace1 output DisplayPort-0
-workspace $workspace2 output DVI-0
+workspace $workspace1 output DVI-0
+workspace $workspace2 output DVI-1
 
 #exec_always --no-startup-id xrandr --output DisplayPort-1 --off --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-0 --off
 exec_always --no-startup-id compton --config /home/ale/.config/compton/compton.conf
 
+exec_always --no-startup-id polybar main1
+exec_always --no-startup-id polybar main2
