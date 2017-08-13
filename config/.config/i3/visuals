@@ -3,34 +3,16 @@ gaps outer 10
 
 font pango:Open Sans 11
 
-#bar {	
-#    status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#	position top
-#
-#	colors {
-#
-#		background #1d1f21
-#		statusline #e6d4a3
-#		separator #e6d4a3
-#		
-#		#					border		background	text
-#		focused_workspace 	#e6d4a3 	#e6d4a3 	#1d1f21
-#		active_workspace	#1d1f21		#1d1f21		#e6d4a3
-#		inactive_workspace	#1d1f21		#1d1f21		#e6d4a3
-#		urgent_workspace	#a54242		#a54242		#e6d4a3
-#	}
-#}
-
 # disable window borders
 for_window [class="^.*"] border pixel 2
 
 hide_edge_borders both
 # class                 border  backgr. text    indicator child_border
-client.focused          #e6d4a3 #e6d4a3 #1d1f21 #e6d4a3   #e6d4a3
-client.focused_inactive #282A2E #282A2E #ffffff #282A2E   #282A2E
+client.focused          #abb2bf #abb2bf #282c34 #abb2bf   #abb2bf
+client.focused_inactive #282A2E #282A2E #282c34 #282A2E   #282A2E
 client.unfocused        #282A2E #282A2E #ffffff #282A2E   #282A2E
-client.urgent           #F73028 #F73028 #282A2E #F73028   #F73028
+client.urgent           #e06c75 #F73028 #282A2E #F73028   #F73028
 
-client.background       #282A2E2
+client.background       #abb2bf
 
-exec_always --no-startup-id feh --bg-fill /etc/arch-config/config/wallpapers/flying_island.jpg
+exec_always --no-startup-id feh --bg-center /home/ale/Pictures/wallpaper.jpg
